@@ -77,36 +77,36 @@ const Downloads: Component = () => {
               darkIcon={gitHubLight}
               lightIcon={gitHubDark}
               label={intl.formatMessage(t.links.webApp)}
-              href='https://github.com/PrimalHQ/primal-web-app'
+              href='https://github.com/denostr-lab/nostrx-web-app'
             />
 
             <ExternalLink
               darkIcon={gitHubLight}
               lightIcon={gitHubDark}
               label={intl.formatMessage(t.links.iosApp)}
-              href='https://github.com/PrimalHQ/primal-ios-app'
+              href='https://github.com/denostr-lab/nostrx-app'
             />
 
-            <ExternalLink
+            {/* <ExternalLink
               darkIcon={gitHubLight}
               lightIcon={gitHubDark}
               label={intl.formatMessage(t.links.andApp)}
-              href='https://github.com/PrimalHQ/primal-android-app'
-            />
+              href='https://github.com/denostr-lab/nostrx-android-app'
+            /> */}
 
-            <ExternalLink
+            {/* <ExternalLink
               darkIcon={gitHubLight}
               lightIcon={gitHubDark}
               label={intl.formatMessage(t.links.cachingService)}
               href='https://github.com/PrimalHQ/primal-caching-service'
-            />
+            /> */}
 
-            <ExternalLink
+            {/* <ExternalLink
               darkIcon={gitHubLight}
               lightIcon={gitHubDark}
               label={intl.formatMessage(t.links.primalServer)}
               href='https://github.com/PrimalHQ/primal-server'
-            />
+            /> */}
           </div>
         </div>
       </StickySidebar>
@@ -168,7 +168,7 @@ const Downloads: Component = () => {
             </a>
 
             <a
-              href={`https://github.com/PrimalHQ/primal-android-app/releases/tag/${andVersion()}`}
+              href={`https://github.com/denostr-lab/nostrx-app/releases/tag/${andVersion()}`}
               target='_blank'
               class={styles.apkLink}
             >
@@ -188,36 +188,36 @@ const Downloads: Component = () => {
             darkIcon={gitHubLight}
             lightIcon={gitHubDark}
             label={intl.formatMessage(t.links.webApp)}
-            href='https://github.com/PrimalHQ/primal-web-app'
+            href='https://github.com/denostr-lab/nostrx-web-app'
           />
 
           <ExternalLink
             darkIcon={gitHubLight}
             lightIcon={gitHubDark}
             label={intl.formatMessage(t.links.iosApp)}
-            href='https://github.com/PrimalHQ/primal-ios-app'
+            href='https://github.com/denostr-lab/nostrx-app'
           />
 
-          <ExternalLink
+          {/* <ExternalLink
             darkIcon={gitHubLight}
             lightIcon={gitHubDark}
             label={intl.formatMessage(t.links.andApp)}
-            href='https://github.com/PrimalHQ/primal-android-app'
-          />
+            href='https://github.com/denostr-lab/nostrx-android-app'
+          /> */}
 
-          <ExternalLink
+          {/* <ExternalLink
             darkIcon={gitHubLight}
             lightIcon={gitHubDark}
             label={intl.formatMessage(t.links.cachingService)}
             href='https://github.com/PrimalHQ/primal-caching-service'
-          />
+          /> */}
 
-          <ExternalLink
+          {/* <ExternalLink
             darkIcon={gitHubLight}
             lightIcon={gitHubDark}
             label={intl.formatMessage(t.links.primalServer)}
             href='https://github.com/PrimalHQ/primal-server'
-          />
+          /> */}
         </div>
       </div>
     </div>
