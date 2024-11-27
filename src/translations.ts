@@ -445,7 +445,7 @@ export const actions = {
 
 export const branding = {
   id: 'branding',
-  defaultMessage: 'NostrX',
+  defaultMessage: 'X',
   description: 'Brand name',
 };
 
@@ -513,7 +513,7 @@ export const downloads = {
     },
     webApp: {
       id: 'downloads.webAppLink',
-      defaultMessage: 'NostrX Web App',
+      defaultMessage: 'X Web App',
       description: 'Label for the link to the web app',
     },
     iosApp: {
